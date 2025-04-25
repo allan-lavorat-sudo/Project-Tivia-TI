@@ -1,0 +1,7 @@
+cypress/ │ ├── e2e/ │ ├── login.spec.js # Testes de frontend │ ├── registro.spec.js # Testes de registro │ ├── navegacao.spec.js # Testes de navegação │ 
+
+├── api/ │ ├── autenticacao.spec.js # Testes de login na API │ ├── usuarios.spec.js # Gerenciamento de usuários │ ├── produtos.spec.js # Consultas e gerenciamento de produtos │ 
+
+├── carrinhos.spec.js # Testes de carrinhos │ 
+
+└── support/ └── commands.js # Funções customizadas (opcional) dentro desses arquivos eu incluo os cenários escritos
